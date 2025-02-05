@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+	width: 100%;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+}
+
+h1 {
+	font-size: 40px;
+}
+
+span {
+	color: red;
+}
+
+/* !HEADER  */
+.header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	text-align: center;
+
+	box-shadow: 0px 0px 20px 10px rgb(0, 140, 255);
+}
+
+h1 {
+	color: rgb(0, 140, 255);
+	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+
+/* !CONTENT */
+
+
+.content {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	margin-bottom: 30px;
+}
+
+.menu {
+	font-size: 25px;
+	font-weight: 500;
+	list-style-type: none;
+	text-align: left;
+
+	width: 800px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	box-shadow: 0px 0px 10px 5px white;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.menu-text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(0, 140, 255);
+	text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+.task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.task-title {
+	color: rgb(255, 255, 255);
+}
+
+.btn-action {
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn-action:hover {
+	scale: 1.1;
+}
+
+.btn-action:active {
+	scale: 0.9;
+}
+
+.form {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 800px;
+	margin: 0 auto;
+	gap: 10px;
+}
+
+.form-text {
+	font-size: 30px;
+	color: rgb(0, 140, 255);
+}
+
+.form-input {
+	width: 600px;
+	height: 35px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.form-input::placeholder {
+	font-size: 20px;
+	color: red;
+
+}
+
+.btn-add {
+	padding: 15px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+
+	transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+	scale: 1.1;
+	background: rgb(0, 140, 255);
+	color: white;
+}
+
+.btn-add:active {
+	scale: 0.9;
+
+}
