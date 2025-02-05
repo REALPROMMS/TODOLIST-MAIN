@@ -21,6 +21,8 @@ span {
 	color: red;
 }
 
+
+
 /* !HEADER  */
 .header {
 	margin-top: 50px;
@@ -37,8 +39,8 @@ h1 {
 }
 
 
-/* !CONTENT */
 
+/* !CONTENT */
 
 .content {
 	display: flex;
@@ -74,6 +76,10 @@ h1 {
 
 }
 
+
+
+/* !TASK */
+
 .task {
 	display: flex;
 	align-items: center;
@@ -84,6 +90,10 @@ h1 {
 .task-title {
 	color: rgb(255, 255, 255);
 }
+
+
+
+/* !BTN */
 
 .btn-action {
 	cursor: pointer;
@@ -97,6 +107,9 @@ h1 {
 .btn-action:active {
 	scale: 0.9;
 }
+
+
+/* !FORM */
 
 .form {
 
@@ -130,6 +143,10 @@ h1 {
 
 }
 
+
+
+/* !FORM BTN */
+
 .btn-add {
 	padding: 15px;
 	border-radius: 7px;
@@ -151,4 +168,8 @@ h1 {
 .btn-add:active {
 	scale: 0.9;
 
+}
+
+.hidden {
+	display: none !important;
 }
