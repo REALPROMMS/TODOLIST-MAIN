@@ -117,7 +117,7 @@ h1 {
 .form-input {
 	width: 600px;
 	height: 35px;
-	border-radius: 10px;
+	border-radius: 7px;
 	outline: none;
 	border: none;
 	font-size: 20px;
@@ -132,11 +132,11 @@ h1 {
 
 .btn-add {
 	padding: 15px;
-	border-radius: 15px;
+	border-radius: 7px;
 	border: none;
 	cursor: pointer;
 	font-size: 20px;
-
+	box-shadow: 2px 2px 2px 2px rgb(0, 140, 255);
 	transition: all 0.3s ease;
 }
 
@@ -144,6 +144,8 @@ h1 {
 	scale: 1.1;
 	background: rgb(0, 140, 255);
 	color: white;
+	box-shadow: 2px 2px 2px 2px red;
+
 }
 
 .btn-add:active {
